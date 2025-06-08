@@ -41,7 +41,7 @@ with st.sidebar:
 if selected == 'Diabetes Prediction':
     st.title('Diabetes Prediction using ML')
 
-    bg_image_path = "static\diabetes.webp"
+    bg_image_path = "static/diabetes.webp"
     bg_image_base64 = image_to_base64(bg_image_path)
 
     st.markdown(f"""
@@ -91,7 +91,7 @@ if selected == 'Diabetes Prediction':
 if selected == 'Heart Disease Prediction':
     st.title('Heart Disease Prediction using ML')
 
-    bg_image_path = "static\heart_disease.jpg"
+    bg_image_path = "static/heart_disease.jpg"
     bg_image_base64 = image_to_base64(bg_image_path)
 
     st.markdown(f"""
@@ -136,7 +136,7 @@ if selected == 'Heart Disease Prediction':
 if selected == "Parkinsons Prediction":
     st.title("Parkinson's Prediction using ML")
 
-    bg_image_path = "static\parkinsons.webp"
+    bg_image_path = "static/parkinsons.webp"
     bg_image_base64 = image_to_base64(bg_image_path)
 
     st.markdown(f"""
