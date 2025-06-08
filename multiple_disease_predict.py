@@ -22,9 +22,11 @@ def image_to_base64(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 # Load models
-diabetes_model = pickle.load(open('E:/disease outbreak prediction system/Saved Models/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open('E:/disease outbreak prediction system/Saved Models/heart_disease_model.sav', 'rb'))
-parkinsons_model = pickle.load(open('E:/disease outbreak prediction system/Saved Models/parkinsons_model.sav', 'rb'))
+diabetes_model = pickle.load(open(f'{working_dir}/Saved Models/diabetes_model.sav', 'rb'))
+
+heart_disease_model = pickle.load(open(f'{working_dir}/Saved Models/heart_disease_model.sav', 'rb'))
+
+parkinsons_model = pickle.load(open(f'{working_dir}/Saved Models/parkinsons_model.sav'', 'rb'))
 
 # Sidebar navigation
 with st.sidebar:
